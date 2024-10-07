@@ -16,7 +16,7 @@ public class TownCharacterController : MonoBehaviour
 
     public void CallLookEvent(Vector2 direction)
     {
-        OnMoveEvent?.Invoke(direction);
+        OnLookEvent?.Invoke(direction);
     }
 
 

@@ -8,7 +8,7 @@
                 {
                     "name": "Move",
                     "type": "Value",
-                    "id": "f4ee647b-e4c6-48b6-b427-88defc08d2b2",
+                    "id": "ae8d42e1-552a-4529-bd44-1cd60b46fb17",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -26,8 +26,19 @@
             ],
             "bindings": [
                 {
+                    "name": "",
+                    "id": "906de8cf-21ba-430f-9b0e-48b701b2330b",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "KeyboardMouse",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "2D Vector",
-                    "id": "9418a682-fd30-406b-b75d-57d8490396e8",
+                    "id": "4db7eac6-47b4-4a40-a263-cf5c9dc67e8d",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -38,7 +49,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "17c8644c-f2f8-48cd-be7e-ec371d87098b",
+                    "id": "f231265f-db60-4c17-8be1-444889e9ef49",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -49,7 +60,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "90f61085-93ca-4680-845d-722d98b28344",
+                    "id": "da422c83-dd75-48cf-942b-9dde9ade5145",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -60,7 +71,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "e0ec567d-6c84-488e-81d0-c034a6296434",
+                    "id": "fc819ffa-1fb0-4387-8a45-75eda4588b6a",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -71,7 +82,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "075d5ad2-d14b-48ec-b982-e3063cfc2a8a",
+                    "id": "a84a85ef-2fd8-41e4-9a7e-9eb487e9ef85",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -79,17 +90,6 @@
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "906de8cf-21ba-430f-9b0e-48b701b2330b",
-                    "path": "<Mouse>/position",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "KeyboardMouse",
-                    "action": "Look",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         }
