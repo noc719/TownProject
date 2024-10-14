@@ -8,11 +8,19 @@ public class setPlayerName : MonoBehaviour
 {
     public GameObject pNameData;
     public TMP_Text tmp;
+    
+    
     // Start is called before the first frame update
     void Start()
     {
+        
+        Debug.Log("dsd");
         pNameData = GameObject.FindGameObjectWithTag("pNameData");
         tmp = this.GetComponent<TMP_Text>();
-        tmp.text = pNameData.GetComponent<playerName>().pName;
+        tmp.text = pNameData.GetComponent<playerInfo>().pName;
+        
     }
+
+
+    
 }

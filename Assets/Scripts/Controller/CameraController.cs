@@ -6,10 +6,26 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     //카메라를 붙이는 대상
+    public bool pType;
     public GameObject player;
     //카메라가 플레이어를 따라가는 속도
     public float camerSpeed;
 
+    public void Start()
+    {
+        pType = GameObject.FindGameObjectWithTag("pNameData").GetComponent<playerInfo>().pType;
+        
+        if (pType == true)
+        {
+            player = GameObject.Find("PlayerGroup").transform.Find("Penguin").gameObject;
+        }
+        else
+        {
+            player = GameObject.Find("PlayerGroup").transform.Find("Wizzard").gameObject;
+
+        }
+
+    }
 
     //카메라가 플레이어를 쫒아가게 하여야한다. 카메라의 위치를 계속 바꿔줘야 하기 때문에 Update를 사용하는 것이 맞는 것 같다.
 
