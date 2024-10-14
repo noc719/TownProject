@@ -20,3 +20,5 @@
 TMP_Text 계열 UI를 작성할 때 한글 폰트가 깨지는 것을 해결하기위해 변환하는 법도 배움 
 Scene을 StartScene 과 MainScene 으로 나누어 입력받은 이름값을 DontDestroyOnLoad 메소드를 사용하여 MainScene의 Text에 전달
 
+## 캐릭터 선택창 : UI Panel을 이용해 UI창을 만들고 버튼에 이미지 파일을 넣어 해당하는 이미지를 누르면 데이터가 저장되고 이름이 입력되었을 때
+정보가 같이 이동하여 정보에 따라가 캐릭터가 선택됩니다.
